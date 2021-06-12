@@ -25,11 +25,22 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 
-- type: others #类别为ID
+- type: info #类别为ID
   name: 基本信息 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - 性别： 男
   - 出生日期： 1999/11/26
+  - title: "加粗:"
+    text: "列表项二"
+  - title: "兴趣:"
+    items: #单行列表
+    - 睡觉
+    - 吃饭
+    - coding
+  - title: 列表
+    list:
+    - 第一项
+    - 第二项
 
 - type: education #类别为ID
   name: 教育经历 #显示名称，空则使用type
