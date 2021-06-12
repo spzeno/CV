@@ -57,7 +57,12 @@ main: #简历主要内容，
   - title: 排序算法可视化
     duration: 大一下数据结构课设
     detail: 使用图形化库对几种常见的排序算法进行了可视化
-  
+      - title: 车牌识别系统
+    duration: 大三上数字图像处理课设
+    detail: 使用传统的数字图像处理方法和CNN实现的车牌识别系统
+   - title: 各种搜索算法解决N数码问题
+    duration: 大三下人工智能大作业
+    detail: 使用DFS、BFS、IDDFS、A*等方法解决N数码问题并对比各种搜索算法的性能 
 #    sub: 维护者
 #  - title: Project Name
 #    summary: Projects' introduction or summary
