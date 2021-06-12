@@ -51,8 +51,8 @@ main: #简历主要内容，
 #    summary: Consectetur, Adipiscing, Elit
 
 
-- type: 课设项目
-  name: Projects
+- type: projects
+  name: 课设项目
   content:
   - title: 排序算法可视化
     duration: 大一下数据结构课设
